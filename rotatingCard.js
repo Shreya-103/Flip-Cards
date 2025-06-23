@@ -2,11 +2,11 @@ let flipCard = document.querySelector(".flipCard");
 let textI = document.querySelector(".textI");
 flipCard.addEventListener("mouseover", ()=>{
     textI.style.fontSize="20px";
-    textI.textContent="Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.";
+    textI.textContent="Breaking software into independent, interchangeable modules. Each module has a specific responsibility, improving maintainability. Encourages separation of concerns and code reusability.";
 });
  flipCard.addEventListener("mouseout", ()=> {
     textI.style.fontSize="40px";
-     textI.textContent= "JAVA";
+     textI.textContent= "Modularity";
 });
 
 // second card
@@ -14,10 +14,10 @@ let flipCardII = document.querySelector(".II");
 let textII = document.querySelector(".textII");
 flipCardII.addEventListener("mouseover", ()=>{
     textII.style.fontSize="20px";
-    textII.textContent="C is mother of all language..C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language.";
+    textII.textContent="The system’s ability to handle growing amounts of work. It includes vertical (more power) and horizontal (more nodes) scaling. Crucial for handling user growth in real-world applications."
 });
 flipCardII.addEventListener("mouseout", ()=> {
-    textII.textContent= "C";
+    textII.textContent= "Scalability";
     textII.style.fontSize="40px";
 });
 
@@ -26,10 +26,10 @@ let flipCardIII = document.querySelector(".III");
 let textIII = document.querySelector(".textIII");
 flipCardIII.addEventListener("mouseover", ()=>{
     textIII.style.fontSize="20px";
-    textIII.textContent="C++ is advanced version of C.C++ is a computer programming language developed by Bjarne Stroustrup as an extension of the C language. It is known for is fast speed, low level memory management and is often taught as first programming language. It provides:Hands-on application of different programming concepts. Similar syntax to C and other popular languages making it easier to switch.";
+    textIII.textContent="Hiding complex logic behind simple interfaces. Allows developers to work on high-level logic without internal details. A core concept in clean, flexible design.";
 });
 flipCardIII.addEventListener("mouseout", ()=> {
-    textIII.textContent= "C++";
+    textIII.textContent= "Abstraction";
     textIII.style.fontSize="40px";
 
 });
@@ -39,10 +39,10 @@ let flipCardIV = document.querySelector(".IV");
 let textIV = document.querySelector(".textIV");
 flipCardIV.addEventListener("mouseover", ()=>{
     textIV.style.fontSize="20px";
-    textIV.textContent="Python is easiest language. Python is a widely used high-level, interpreted programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code. Python is a programming language that lets you work quicklY.";
+    textIV.textContent="Bundling data with the methods that operate on it. Restricts direct access to some of the object's components. Enhances data integrity and security in software design.";
 });
 flipCardIV.addEventListener("mouseout", ()=> {
-    textIV.textContent= "PYTHON";
+    textIV.textContent= "Encapsulation";
     textIV.style.fontSize="40px";
 
 });
@@ -52,10 +52,10 @@ let flipCardV = document.querySelector(".V");
 let textV = document.querySelector(".textV");
 flipCardV.addEventListener("mouseover", ()=>{
     textV.style.fontSize="20px";
-    textV.textContent="Web development is one of the cruiciial thing in it sector. Web development offers numerous benefits, including enhanced brand identity, increased reach and visibility, better customer engagement, cost-effectiveness, and the ability to stand out from competitors. It also facilitates access to information, boosts sales and conversions, and provides opportunities for advertising and process automation. ";
+    textV.textContent=" The system's ability to recover from failures gracefully. Includes retry strategies, fallbacks, and graceful degradation. Key for building fault-tolerant distributed systems.";
 });
 flipCardV.addEventListener("mouseout", ()=> {
-    textV.textContent= "Web Development";
+    textV.textContent= "Resielence";
     textV.style.fontSize="40px";
 
 });
@@ -65,10 +65,10 @@ let flipCardVI = document.querySelector(".VI");
 let textVI = document.querySelector(".textVI");
 flipCardVI.addEventListener("mouseover", ()=>{
     textVI.style.fontSize="20px";
-    textVI.textContent="Data science filed has highest paying jobs.Data science offers numerous benefits, including improved decision-making, increased efficiency, enhanced customer experience, and the ability to identify patterns and trends for better business outcomes and risk mitigation";
+    textVI.textContent="Executing multiple tasks at the same time, improving performance. Involves threads, async programming, or parallel processes. Essential for responsive UIs and real-time systems.";
 });
 flipCardVI.addEventListener("mouseout", ()=> {
-    textVI.textContent= "DATA SCIENCE";
+    textVI.textContent= "Concurrency";
     textVI.style.fontSize="40px";
 });
 
@@ -77,10 +77,10 @@ let flipCardVII = document.querySelector(".VII");
 let textVII = document.querySelector(".textVII");
 flipCardVII.addEventListener("mouseover", ()=>{
     textVII.style.fontSize="20px";
-    textVII.textContent="App development offers numerous benefits, including increased accessibility, enhanced customer engagement, streamlined operations, and competitive advantages, making it a valuable tool for businesses and individuals alike. ";
+    textVII.textContent="How easily a software system can be modified or updated. Good documentation, code readability, and modularity help. Reduces long-term development costs significantly. ";
 });
 flipCardVII.addEventListener("mouseout", ()=> {
-    textVII.textContent= "App Development";
+    textVII.textContent= "Maintainability";
     textVII.style.fontSize="40px";
 });
 
@@ -89,8 +89,9 @@ let flipCardVIII = document.querySelector(".VIII");
 let textVIII = document.querySelector(".textVIII");
 flipCardVIII.addEventListener("mouseover", ()=>{
     textVIII.style.fontSize="15px";
-    textVIII.textContent="Studying artificial intelligence (AI) and machine learning (ML) can be beneficial for a number of reasons, including: Career opportunities: AI and ML are rapidly growing fields with a wide range of job opportunities in industries like healthcare, finance, and e-commerce. Business benefits: AI and ML can help businesses improve efficiency, customer experience, and decision-making. Innovation: AI and ML can help businesses create new design possibilities and innovate more. Data-driven insights: AI and ML can help businesses analyze and activate a wider range of data sources"});
+  textVIII.textContent="The ability of different systems or components to work together. Often achieved via APIs, standard protocols, or middleware. Critical in microservices, cross-platform apps, and integrations."
+});
 flipCardVIII.addEventListener("mouseout", ()=> {
-    textVIII.textContent= "AI&ML";
+    textVIII.textContent= "Interoperability";
     textVIII.style.fontSize="40px";
 });
