@@ -88,10 +88,10 @@ flipCardVII.addEventListener("mouseout", ()=> {
 let flipCardVIII = document.querySelector(".VIII");
 let textVIII = document.querySelector(".textVIII");
 flipCardVIII.addEventListener("mouseover", ()=>{
-    textVIII.style.fontSize="15px";
+    textVIII.style.fontSize="20px";
   textVIII.textContent="The ability of different systems or components to work together. Often achieved via APIs, standard protocols, or middleware. Critical in microservices, cross-platform apps, and integrations."
 });
 flipCardVIII.addEventListener("mouseout", ()=> {
     textVIII.textContent= "Interoperability";
-    textVIII.style.fontSize="40px";
+    textVIII.style.fontSize="30px";
 });
